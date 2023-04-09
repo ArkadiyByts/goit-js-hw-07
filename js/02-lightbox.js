@@ -17,4 +17,4 @@ const galleryList = document.querySelector(".gallery");
 console.log(galleryList);
 galleryList.insertAdjacentHTML('afterbegin', smallImg);
 
-const lightbox = new SimpleLightbox('ul li .gallery__item');
+const lightbox = new SimpleLightbox('ul li .gallery__item',{ captionsData: "alt",captionDelay: "250" });
